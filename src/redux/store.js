@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import { incrementCounter } from "./action";
+import { incrementCounter, decrementCounter } from "./action";
 import { reducer } from "./reducer";
 
 const initialState = {
