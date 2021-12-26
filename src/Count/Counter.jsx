@@ -4,7 +4,6 @@ import { AppContext } from "../redux/AppContextProvider";
 
 const Counter = () => {
   const { dispatch } = useContext(AppContext)[1];
-
   const handleIncrement = () => {
     const action = incrementCounter(1);
     dispatch(action);
