@@ -9,7 +9,7 @@ export default function App() {
   const { count } = getState();
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h2>Counter App</h2>
       <h2>{count}</h2>
       <Counter />
     </div>
